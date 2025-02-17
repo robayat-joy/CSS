@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+    <style>
+        body {
+            font-size: 20px;
+        }
+        @media (max-width: 600px) {
+            body {
+                font-size: 14px;
+                background-color: lightgray;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>Resize the browser to see the effect.</p>
+</body>
+</html>
